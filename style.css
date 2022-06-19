@@ -1,0 +1,54 @@
+h1{
+    color:#afb80b ;
+    font-family: poppins;
+    background-color: #063175;
+    box-shadow: 2px 2px 5px #0d85e0;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+img{
+    margin: 0 auto;
+    display: block;
+}
+.container{
+    width: 70%;
+    display: grid;
+    margin:0 auto;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+p{
+    color: #063175;
+    font-family: poppins;
+    font-size:20px;
+    text-align: center;
+}
+#theme{
+    color: green;
+}
+.alpha{
+    height: 60px;
+    width: 60px;
+    color: wheat;
+    font-size: 15px;
+    margin: 0 auto;
+    background-color: #0d85e0;
+    cursor: pointer;
+}
+#dashed{
+    text-align: center;
+    font-size: 20px;
+}
+.alpha:hover{
+    background-color:#063175;
+}
+#wrongguess{
+    text-align: left;
+    font-size: 25px;
+}
+button[disabled]{
+    background-color: aqua;
+}
